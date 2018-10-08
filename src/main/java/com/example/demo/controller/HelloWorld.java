@@ -52,6 +52,7 @@ public class HelloWorld {
         userList.add(user);
         userList.add(user2);
         userList.add(userById);
+        userList.add(user3);
         return userList;
     }
 
