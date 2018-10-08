@@ -59,7 +59,7 @@ public class HelloWorld {
     @RequestMapping("/getUserMap")
     public Map getUserMap(){
         Map userMap = new HashMap();
-        userMap.put("id","1");
+        userMap.put("id","1001");
         userMap.put("name","李相赫");
         userMap.put("desc","faker");
         return userMap;
