@@ -41,6 +41,12 @@ public class HelloWorld {
         user2.setName("柠檬人");
         user2.setDesc("60E");
 
+        User user3= new User();
+        user3.setId(Integer.parseInt(id));
+        user3.setName("TheShy");
+        user3.setDesc("姜东根");
+
+
         User userById = userService.findUserById(Integer.parseInt(id));
 
         userList.add(user);
